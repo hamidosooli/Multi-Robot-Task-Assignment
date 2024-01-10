@@ -3,21 +3,21 @@ A Multi-Robot Task Assignment Framework for Search and Rescue with Heterogeneous
 
 In the MRTA_new folder:
 
-Running main.py assigns the tasks to the robots and saves the results in the MRTA.hdf5 file. 
+- Running main.py assigns the tasks to the robots and saves the results in the MRTA.hdf5 file. 
 
-Running a_star.py visualizes the robot movements to the victims (tasks)
+- Running a_star.py visualizes the robot movements to the victims (tasks)
 
 
 In the MASAR folder:
 
-Running env1.1.py trains the agents to find the victims and saves the results in multi_agent_Q_learnnig_{experiment name}.hdf5 file
+- Running env1.1.py trains the agents to find the victims and saves the results in multi_agent_Q_learnnig_{experiment name}.hdf5 file
 
-Runnning visualizer1.1.py demonstrates the robots performance in a simulation
+- Runnning visualizer1.1.py demonstrates the robots performance in a simulation
 
 
 In the PathPanning folder:
 
-Running a_star.py visualizes the robots paths in hte environment
+- Running a_star.py visualizes the robots paths in hte environment
 
 
 
