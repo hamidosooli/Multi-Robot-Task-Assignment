@@ -236,7 +236,7 @@ def main():
 
     plt.rcParams.update({'font.size': 22})
 
-    with h5py.File(f'../MRTA/MRTA.hdf5', 'r') as f:
+    with h5py.File(f'../MRTA_new/MRTA.hdf5', 'r') as f:
         num_robots = np.asarray(f[f'RS_size']).tolist()
         num_victims = np.asarray(f[f'Victims_size']).tolist()
         starts = np.asarray(f[f'RS_starts']).tolist()
@@ -254,7 +254,7 @@ def main():
             list_t.append(s3)
             tasks.append(list_t)
 
-    file_name = f'../Multi-Agent-Search-and-Rescue/multi_agent_Q_learning_{exp_name}.hdf5'
+    file_name = f'../MASAR/multi_agent_Q_learning_{exp_name}.hdf5'
 
     grid_size = 1  # [m]
     robot_radius = .5  # [m]
