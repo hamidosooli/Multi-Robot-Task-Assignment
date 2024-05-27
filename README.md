@@ -34,7 +34,7 @@ If you found this repository useful, we would really appreciate if you could cit
 @article{osooli2023multi,
   title={A Multi-Robot Task Assignment Framework for Search and Rescue with Heterogeneous Teams},
   author={Osooli, Hamid and Robinette, Paul and Jerath, Kshitij and Ahmadzadeh, S Reza},
-  journal={arXiv preprint arXiv:2309.12589},
+  journal={IROS 2023 Advances in Multi-Agent Learning - Coordination, Perception, and Control Workshop},
   year={2023}
 }
 
