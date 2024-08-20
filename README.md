@@ -17,7 +17,7 @@ In the MASAR folder:
 
 In the PathPanning folder:
 
-- Running a_star.py visualizes the robots paths in hte environment
+- Running a_star.py visualizes the robots paths in the environment
 
 
 
